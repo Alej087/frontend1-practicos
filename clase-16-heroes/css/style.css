@@ -35,9 +35,9 @@
 .titulo1 {
   text-transform: capitalize;
   display: flex;
-  position: relative;
-  right: 110px;
+  justify-content: flex-start;
   margin-bottom: 20px;
+  width: 100%;
   font-size: 32px;
 }
 .login {
@@ -181,4 +181,35 @@ section img {
   left: 100px;
   bottom: 5px;
   padding: 5px 10px;
+}
+.login3 {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+}
+.login3 input {
+  font-size: 15px;
+  height: 30px;
+  width: 400px;
+  padding: 10px;
+}
+.login3 button.enviar {
+  height: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-radius: 40px;
+  border: transparent none 0px;
+  background-color: #1cd1b0;
+}
+
+.login3 button.reset {
+  height: 30px;
+  border-radius: 40px;
+  border: transparent none 0px;
+  background-color: #888888;
+  color: white;
+}
+.fa-store {
+  color: white;
 }
