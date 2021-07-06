@@ -146,6 +146,12 @@ main {
 .superman {
   background-image: url("../img/fondo-superman.png");
 }
+.wonder-woman {
+  background-image: url("../img/fondo-mujer-maravilla.png");
+}
+.harleyQ {
+  background-image: url("../img/fondo-hq.png");
+}
 div h2 {
   text-transform: uppercase;
   text-align: center;
@@ -157,7 +163,7 @@ section img {
   margin-top: 160px;
 }
 .historia p {
-  padding: 0 20px;
+  padding: 10px 20px;
   height: 200px;
 }
 .foto-perfil {
@@ -175,6 +181,7 @@ section img {
   font-size: 25px;
 }
 .ver-mas {
+  margin-top: 20px;
   background-color: #00669f;
   color: white;
   position: relative;
