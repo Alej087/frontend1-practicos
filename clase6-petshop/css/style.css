@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.idiombar {
+  background-color: #222222;
+  color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding-right: 50px;
+}
+.idiombar p {
+  padding-left: 90px;
+}
+.navbar {
+  background-color: #f0a83e;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+.navbar img {
+  height: 40%;
+  align-self: center;
+}
+.navbar a {
+  color: white;
+  text-transform: capitalize;
+  padding-left: 40px;
+  text-decoration: none;
+}
+nav {
+  align-self: center;
+}
+.navbar a::before {
+  background-image: url("../img/catpaw.png");
+  background-size: 25px 20px;
+  display: inline-block;
+  margin-right: 5px;
+  width: 25px;
+  height: 20px;
+  content: "";
+}
