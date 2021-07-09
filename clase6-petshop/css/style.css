@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 .idiombar {
   background-color: #222222;
@@ -47,4 +48,67 @@ nav {
   width: 25px;
   height: 20px;
   content: "";
+}
+.bannerppal {
+  background-image: url("../img/bowl-and-pet.png");
+  background-size: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.bannerppal h2,
+h4 {
+  position: absolute;
+}
+.bannerppal h2 {
+  background-color: white;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 5px;
+  top: 45%;
+  left: 67%;
+}
+.bannerppal h4 {
+  top: 58%;
+  left: 73%;
+}
+.bannerppal button {
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  height: 50px;
+  background-color: #f0a83e;
+  border-radius: 5px;
+  border: transparent none 0;
+  text-transform: uppercase;
+  position: absolute;
+  top: 65%;
+  left: 75%;
+}
+h1 {
+  color: #3c2313;
+  text-transform: capitalize;
+  font-size: 60px;
+}
+.fa-paw {
+  color: #f0a83e;
+  font-size: 80px;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.categories span {
+  text-transform: capitalize;
+  color: #666666;
+  font-size: 25px;
 }
