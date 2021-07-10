@@ -170,7 +170,7 @@ button.reset {
   border-radius: 15px;
   border: transparent none 0;
   width: 90px;
-  height: 25px;
+  height: 30px;
 }
 button.enviar {
   background-color: #f0a83e;
@@ -178,16 +178,78 @@ button.enviar {
   border-radius: 15px;
   border: transparent none 0;
   width: 90px;
-  height: 25px;
+  height: 30px;
 }
 
 /*footer*/
 
 .subscription {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #f0a83e;
   color: #ffffff;
   font-weight: 700;
   font-size: 20px;
   height: 60px;
+  padding: 0 40px;
+}
+.fa-envelope-open-text {
+  font-size: 40px;
+  padding-right: 20px;
+}
+input.mailsubscribe {
+  height: 40px;
+  width: 280px;
+  border-radius: 20px;
+  border: transparent none 0;
+}
+input.mailsubscribe::placeholder {
+  color: #a0a0a0;
+}
+button.subscribe {
+  background-color: #3c2313;
+  color: #ffffff;
+  border-radius: 20px;
+  border: transparent none 0;
+  width: 90px;
+  height: 35px;
+  font-size: 9px;
+}
+.bannerfooter {
+  background-color: #3c2313;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+.bannerfooter i {
+  color: white;
+  width: 40px;
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.iconsfooter {
+  display: flex;
+}
+.iconsfooter span {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+.iconsfooter p {
+  font-weight: 700;
+  font-size: 12px;
+  color: #8a8787;
+  margin-top: 3px;
+}
+.right-reserved {
+  background-color: #222222;
+  color: #ffffff;
+  font-size: 10px;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
 }
