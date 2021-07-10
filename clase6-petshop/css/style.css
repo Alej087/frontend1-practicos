@@ -8,6 +8,7 @@
 .idiombar {
   background-color: #222222;
   color: #f3f3f3;
+  height: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -18,7 +19,9 @@ nav ul li {
   padding-right: 50px;
 }
 .idiombar p {
+  display: flex;
   padding-left: 90px;
+  align-items: center;
 }
 .navbar {
   background-color: #f0a83e;
@@ -94,7 +97,7 @@ h1 {
   color: #f0a83e;
   font-size: 80px;
 }
-.products {
+.productsbanner {
   display: flex;
   flex-direction: column;
   height: 230px;
@@ -111,4 +114,80 @@ h1 {
   text-transform: capitalize;
   color: #666666;
   font-size: 25px;
+}
+.priceproducts {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20%;
+}
+.product {
+  background-color: #fbfaf6;
+  text-align: center;
+}
+.price {
+  color: #f0a83e;
+  font-weight: 500;
+}
+.productname {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+h3 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 25px;
+  color: #3c2313;
+  text-align: center;
+}
+.formcontact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 280px;
+}
+form input {
+  background-color: #3c2313;
+  width: 20%;
+  border-radius: 15px;
+  border: transparent none 0;
+  height: 40px;
+}
+input::placeholder {
+  color: #ffffff;
+  padding-left: 10px;
+  font-size: 9px;
+}
+.buttons {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+button.reset {
+  background-color: #8a8787;
+  color: #ffffff;
+  border-radius: 15px;
+  border: transparent none 0;
+  width: 90px;
+  height: 25px;
+}
+button.enviar {
+  background-color: #f0a83e;
+  color: #ffffff;
+  border-radius: 15px;
+  border: transparent none 0;
+  width: 90px;
+  height: 25px;
+}
+
+/*footer*/
+
+.subscription {
+  display: flex;
+  background-color: #f0a83e;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  height: 60px;
 }

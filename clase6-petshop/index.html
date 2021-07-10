@@ -40,7 +40,7 @@
       </section>
     </header>
     <main>
-      <section class="products">
+      <section class="productsbanner">
         <i class="fas fa-paw productos-dest"></i>
         <h1>productos destacados</h1>
         <div class="categories">
@@ -51,6 +51,50 @@
           <span>comida</span>
         </div>
       </section>
+      <section class="priceproducts">
+        <div class="product">
+          <img src="img/churrasquito.png" alt="imagen juguete filete" />
+          <p class="productname">juguete churrasquito</p>
+          <p class="price">$150</p>
+        </div>
+        <div class="product">
+          <img src="img/comedero.png" alt="imagen comedero" />
+          <p class="productname">comedero para perro</p>
+          <p class="price">$250</p>
+        </div>
+        <div class="product">
+          <img src="img/Huesito.png" alt="imagen comedero" />
+          <p class="productname">juguete huesito</p>
+          <p class="price">$650</p>
+        </div>
+      </section>
+      <section class="formcontact">
+        <h3>contáctanos</h3>
+        <form action="/registro" method="POST">
+          <input
+            type="text"
+            name="nombre completo"
+            placeholder="Nombre y Apellido"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Ingresa tu correo electrónico"
+          />
+          <input type="tel" name="telefono" placeholder="Teléfono" />
+          <div class="buttons">
+            <button class="reset" type="reset">Resetear</button>
+            <button class="enviar" type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
     </main>
+    <footer>
+      <div class="subscription">
+        <p>Suscríbete para más novedades</p>
+        <input type="email" name="" id="" />
+        <button type="submit">Suscribirme</button>
+      </div>
+    </footer>
   </body>
 </html>
