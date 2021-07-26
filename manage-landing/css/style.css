@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600;700;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  font-family: "Be Vietnam", sans-serif;
+}
+
+.bannerheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 30px;
+}
+
+.bannerheader img {
+  width: 150px;
+  height: 30px;
+}
+
+.bannerheader .navheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 500px;
+}
+
+.bannerheader .navheader a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #232851;
+  font-weight: 500;
+}
+
+.bannerheader .button1 {
+  background-color: #f3603b;
+  color: #ffffff;
+  border: none 0px transparent;
+  border-radius: 50px;
+  font-weight: 500;
+  width: 150px;
+  height: 50px;
+  text-transform: capitalize;
+  -webkit-box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.bannerheader .container {
+  display: none;
+}
+
+main {
+  position: relative;
+  overflow-x: clip;
+}
+
+main .imagebody1 {
+  position: absolute;
+  z-index: -1;
+  top: -9%;
+  left: 56%;
+}
+
+main .one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .one .start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 186px;
+  width: 480px;
+  height: 386px;
+}
+
+main .one .start h1 {
+  font-size: 58px;
+  line-height: 66px;
+  color: #232851;
+}
+
+main .one .start p {
+  font-weight: 500;
+  width: 350px;
+}
+
+main .one .start .button2 {
+  background-color: #f3603b;
+  color: #ffffff;
+  border: none 0px transparent;
+  border-radius: 50px;
+  font-weight: 500;
+  width: 150px;
+  height: 50px;
+  text-transform: capitalize;
+  -webkit-box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+          box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+}
+
+main .one .divgraphics {
+  margin-top: 125px;
+}
+/*# sourceMappingURL=style.css.map */
