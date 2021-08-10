@@ -117,4 +117,82 @@ main .one .start .button2 {
 main .one .divgraphics {
   margin-top: 125px;
 }
+
+main .two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 150px;
+}
+
+main .two .different {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 433px;
+}
+
+main .two .different p {
+  width: 337px;
+}
+
+main .two .different h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #232851;
+}
+
+main .two .different p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+main .two .listkeys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 550px;
+  height: 549px;
+}
+
+main .two .listkeys .keysellingpoints {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .two .listkeys .keysellingpoints p {
+  color: #b3b2b7;
+  margin-top: 18px;
+}
+
+main .two .listkeys .keysellingpoints span {
+  background-color: #f3603b;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  padding-top: 8px;
+  width: 69px;
+  height: 43px;
+  border-radius: 30px;
+  margin-right: 23px;
+  font-size: 16px;
+}
+
+main .two .listkeys .keysellingpoints h4,
+main .two .listkeys .keysellingpoints p {
+  width: 437px;
+}
 /*# sourceMappingURL=style.css.map */
